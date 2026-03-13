@@ -1,7 +1,5 @@
 package com.template.spring.security.infra.web;
 
-import br.social.impacthub.model.dto.*;
-import com.spring.template.model.dto.*;
 import com.template.spring.application.dto.StandardResponse;
 import com.template.spring.security.application.dto.LoginRequest;
 import com.template.spring.security.application.dto.LoginResponse;

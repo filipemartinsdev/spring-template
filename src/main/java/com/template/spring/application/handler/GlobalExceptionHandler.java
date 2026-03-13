@@ -1,7 +1,5 @@
 package com.template.spring.application.handler;
 
-import br.social.impacthub.exception.*;
-import com.spring.template.exception.*;
 import com.template.spring.application.exceptions.UserNotAuthenticatedException;
 import com.template.spring.application.dto.StandardResponse;
 import com.template.spring.security.application.exceptions.*;
