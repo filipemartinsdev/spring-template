@@ -18,3 +18,4 @@
   - database (PostgreSQL)
   - cache (Redis)
 - OpenAPI (Swagger)
+- CI (Github Actions)
