@@ -1,0 +1,26 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    url: ${APP_URL:http://localhost:8080}
+
+  datasource:
+    url: jdbc:h2:mem:dev
+    username: dev
+    password: dev
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+
+token:
+  issuer: "${TOKEN_ISSUER:default_issuer}"
+  secret: "${TOKEN_SECRET:default_secret}"

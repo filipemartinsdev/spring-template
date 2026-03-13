@@ -1,0 +1,35 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    url: ${APP_URL:http://localhost:8080}
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+  cache:
+    type: REDIS
+
+  data:
+    web:
+      pageable:
+        max-page-size: 50
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+
+token:
+  secret: ${JWT_SECRET:secret}
+  issuer: ${JWT_ISSUER:issuer}
+
+springdoc:
+  writer-with-default-pretty-printer: true
+  swagger-ui:
+    syntaxHighlight:
+      activated: true
