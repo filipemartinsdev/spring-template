@@ -1,4 +1,4 @@
-package com.template.spring.health.web;
+package com.template.spring.health.infra.web;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
